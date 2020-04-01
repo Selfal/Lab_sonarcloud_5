@@ -4,6 +4,15 @@ language: node_js
 node_js:
   - 9
 
+addons:
+  sonarcloud:
+    organization: "selfal"
+    token:
+      secure: "e72b317053038c4bf4177eb8bbd05e2495db5dc2"
+
+script:
+  - sonar-scanner -X
+
 branches:
   only:
     - master
