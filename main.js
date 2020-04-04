@@ -66,6 +66,8 @@ rl.question('Введите путь к файлу: ', (answer) => {
     return 0
 });
 
+rl.close();
+
 function sum(a, b) {
     return a + b;
 }

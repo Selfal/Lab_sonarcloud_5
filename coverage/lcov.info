@@ -6,7 +6,7 @@ FN:19,(anonymous_2)
 FN:26,(anonymous_3)
 FN:44,(anonymous_4)
 FN:58,(anonymous_5)
-FN:69,sum
+FN:71,sum
 FNF:7
 FNH:1
 FNDA:0,(anonymous_0)
@@ -45,10 +45,11 @@ DA:58,1
 DA:61,0
 DA:65,0
 DA:66,0
-DA:70,1
+DA:69,1
 DA:72,1
-LF:31
-LH:8
+DA:74,1
+LF:32
+LH:9
 BRF:0
 BRH:0
 end_of_record
