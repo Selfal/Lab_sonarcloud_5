@@ -6,10 +6,13 @@
   "dependencies": {
     "az": "^0.2.3"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo 'test'"
+  "devDependencies": {
+    "coveralls": "^3.0.11"
   },
-  "author": "",
+  "scripts": {
+    "test": "echo 'test'",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "author": "Selfal",
   "license": "ISC"
 }

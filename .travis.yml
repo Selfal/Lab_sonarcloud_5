@@ -11,7 +11,7 @@ addons:
 
 script:
   - sonar-scanner -X
-
+  - npm run coveralls
 branches:
   only:
     - master
