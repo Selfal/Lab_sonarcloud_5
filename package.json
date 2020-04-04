@@ -10,7 +10,7 @@
     "coveralls": "^3.0.11"
   },
   "scripts": {
-    "test": "echo 'test'",
+    "test": "echo 'test'"
   },
   "author": "Selfal",
   "license": "ISC"
