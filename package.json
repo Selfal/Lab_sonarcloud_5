@@ -13,7 +13,7 @@
   "scripts": {
     "test": "jest --detectOpenHandles",
     "coverage": "jest --detectOpenHandles --coverage",
-    "coveralls": "jest --detectOpenHandles --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "coveralls": "jest --detectOpenHandles --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "author": "Selfal",
   "license": "ISC"
