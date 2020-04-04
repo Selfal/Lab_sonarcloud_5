@@ -12,8 +12,8 @@
   },
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "coverage": "jest --coverage",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "coverage": "jest --detectOpenHandles --coverage",
+    "coveralls": "jest --detectOpenHandles --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "author": "Selfal",
   "license": "ISC"

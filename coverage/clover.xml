@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1586025830598" clover="3.2.0">
-  <project timestamp="1586025830598" name="All files">
+<coverage generated="1586026317388" clover="3.2.0">
+  <project timestamp="1586026317388" name="All files">
     <metrics statements="31" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1" elements="38" coveredelements="9" complexity="0" loc="31" ncloc="31" packages="1" files="1" classes="1"/>
     <file name="main.js" path="/Users/selfal/Yandex.Disk.localized/Учеба/8 Семесть/Алпатов/Лабораторные/Отчеты/Лабораторная работа №5 + 6/src/main.js">
       <metrics statements="31" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
