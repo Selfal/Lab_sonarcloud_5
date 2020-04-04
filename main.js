@@ -47,6 +47,7 @@ class MorphFile {
     }
 }
 
+
 let morph = new MorphFile();
 
 const rl = readline.createInterface({
@@ -56,11 +57,16 @@ const rl = readline.createInterface({
 
 rl.question('Введите путь к файлу: ', (answer) => {
     // Пример файла ./avidreaders.ru__voyna-i-mir-tom-1.txt
-    try {
-        morph.init(`${answer}`);
-    } catch {
-        console.log('Неверный путь!')
-    }
+    // try {
+    morph.init(`${answer}`);
+    // } catch {
+    //     console.log('Неверный путь!')
+    // }
     rl.close();
+    return 0
 });
 
+function sum(a, b) {
+    return a + b;
+}
+module.exports = sum;

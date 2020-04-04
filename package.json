@@ -7,10 +7,13 @@
     "az": "^0.2.3"
   },
   "devDependencies": {
-    "coveralls": "^3.0.11"
+    "coveralls": "^3.0.11",
+    "jest": "^25.2.7"
   },
   "scripts": {
-    "test": "echo 'test'"
+    "test": "jest --detectOpenHandles",
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "author": "Selfal",
   "license": "ISC"
